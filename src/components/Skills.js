@@ -7,6 +7,7 @@ import Git from '../Assets/github-logo.png';
 import reaction from '../Assets/react.png';
 import Node from '../Assets/nodejs.png';
 import MatUI from '../Assets/material-ul.png';
+import Arrow from '../Assets/arrow.png';
 
 export default class Skills extends Component {
     render() {
@@ -71,6 +72,7 @@ export default class Skills extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="arrow"><img src={Arrow} alt="arrow" /></div>
             </div>
         );
     }

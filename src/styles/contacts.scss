@@ -1,0 +1,41 @@
+.contacts{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    img{
+        width: 32px;
+        height: 32px;
+        color: rgb(109, 109, 110);
+        filter: opacity(0.7);
+    }
+    .contacts__content{
+        width: 21vw;
+        padding-left: 30vw;
+        text-align: center;
+    }
+
+    a{
+        color: rgb(109, 109, 110);
+        text-decoration: none;
+    }
+    .contacts-block-primary{
+        a{
+            margin-left: 1vh;
+        }
+    }
+    .contacts-block-secondary{
+        .contact-icons{
+            .icon{
+                display: flex;
+                align-items: center;
+                margin: 1vh auto;
+                height: 5vh;
+                width: 18vh;
+                
+                h5{
+                    margin-left: 1vw;
+                }
+            }
+        }
+    }
+}
