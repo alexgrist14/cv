@@ -1,0 +1,50 @@
+
+.container {
+    margin: auto;
+}
+.skills{
+    position: relative;
+
+    height: 100vh;
+    .skills-block{
+        width: 55vw;
+        background-color: rgb(236, 236, 236);
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .skills__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-block__primary{
+        display: flex;
+        margin: 3vh 0;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        .skill-icons{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .prog-languages{
+            width: 60%;
+            margin-left: 10vh;
+            
+        }
+        .frameworks{
+            width: 100%;
+        }
+        .skill-icon{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    }
+    .skills-block__secondary{
+        width: 50%;
+        margin: auto;
+    }
+}
