@@ -14,8 +14,8 @@ export default class Summary extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="arrow"><img src={Arrow} alt="arrow" /></div>
-                <div className="about-me">
+                <div className="arrow"><a href="#about-me"> <img src={Arrow} alt="arrow" /></a></div>
+                <div id="about-me" className="about-me">
                     <div className="left-line"></div>
                     <div className="about-me__container">
                         <h2>About me</h2>
@@ -32,7 +32,7 @@ export default class Summary extends Component {
                     </div>
                     <div className="right-line"></div>
                 </div>
-                <div className="arrow"><img src={Arrow} alt="arrow" /></div>
+                <div className="arrow"><a href="#projects"> <img src={Arrow} alt="arrow" /></a></div>
 
             </>
         );

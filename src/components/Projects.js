@@ -16,7 +16,7 @@ export default class Projects extends Component {
         };
         return (
             <>
-                <div className="projects">
+                <div id="projects" className="projects">
                     <div className="projects__bg"></div>
                     <div className="projects__bg-2"></div>
                     <h3>Projects</h3>
@@ -71,7 +71,7 @@ export default class Projects extends Component {
                         </div>
                     </Slider>
                 </div>
-                <div className="arrow-pr"><img src={Arrow} alt="arrow" /></div>
+                <div className="arrow-pr"><a href="#skills"> <img src={Arrow} alt="arrow" /></a></div>
             </>
         );
     }

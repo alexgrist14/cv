@@ -7,7 +7,7 @@ import Resume from '../Assets/resume-document.png';
 export default class Contacts extends Component {
     render() {
         return (
-            <div className="contacts">
+            <div id="contacts" className="contacts">
                 <div className="contacts__bg"></div>
                 <div className="contacts__content container">
                     <h3>Contacts</h3>

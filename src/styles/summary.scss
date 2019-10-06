@@ -4,6 +4,13 @@
 .arrow{
     background-color: $mainColor !important;
 }
+html{
+scroll-behavior: smooth;
+color: rgb(80, 80, 80);
+}
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
 .introduction{
     height: 86vh;
     background-color: $mainColor;
@@ -19,7 +26,7 @@
     }
 }
 .classification{
-    color: rgb(221, 143, 112);
+    color: rgb(228, 106, 106);
 }
 .link{
     margin-top: 20px;
@@ -27,7 +34,7 @@
 
     a{
         color: inherit;
-        color: rgb(153, 211, 192);
+        color: rgb(107, 166, 177);
         text-decoration: none;
     }
     
@@ -43,9 +50,9 @@
     &__container{
         width: 54vw;
         font-size: 1.5rem;
-        padding-top: 50vh;
+        padding-top: 20vh;
         margin-left: 23vw;
-        height: 100vh;
+        height: 70vh;
     }
     h2{
         margin: 0;
@@ -54,7 +61,7 @@
     }
     .left-line{
         position: absolute;
-        top: 60vh;
+        top: 29vh;
  
         height: 43vh;
         margin-left: 20vw;
@@ -63,7 +70,7 @@
     .right-line{
         position: absolute;
         margin: 0;
-        top: 60vh;
+        top: 29vh;
         right: 21vw;
         height: 43vh;
       

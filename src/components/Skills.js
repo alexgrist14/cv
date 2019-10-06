@@ -12,7 +12,7 @@ import Arrow from '../Assets/arrow.png';
 export default class Skills extends Component {
     render() {
         return (
-            <div className="skills">
+            <div id="skills" className="skills">
                 <div className="skills__bg"></div>
                 <div className="skills__bg-2"></div>
                 <div className="skills__content container">
@@ -74,7 +74,7 @@ export default class Skills extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="arrow"><img src={Arrow} alt="arrow" /></div>
+                <div className="arrow"><a href="#contacts"> <img src={Arrow} alt="arrow" /></a></div>
             </div>
         );
     }
