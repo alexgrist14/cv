@@ -13,6 +13,8 @@ export default class Skills extends Component {
     render() {
         return (
             <div className="skills">
+                <div className="skills__bg"></div>
+                <div className="skills__bg-2"></div>
                 <div className="skills__content container">
                     <h3>Skills</h3>
                     <p className="description">This is programming languages, technologies, frameworks, libraries and tools which I used in my practice</p>

@@ -8,6 +8,7 @@ export default class Contacts extends Component {
     render() {
         return (
             <div className="contacts">
+                <div className="contacts__bg"></div>
                 <div className="contacts__content container">
                     <h3>Contacts</h3>
                     <div className="contacts-block contacts-block-primary">

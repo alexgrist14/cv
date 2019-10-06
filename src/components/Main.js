@@ -9,14 +9,16 @@ import Footer from './Footer';
 export default class Main extends Component {
     render() {
         return (
-            <main>
-                <Navigation />
-                <Summary />
-                <Projects />
-                <Skills />
-                <Contacts />
+            <>
+                <main>
+                    <Navigation />
+                    <Summary />
+                    <Projects />
+                    <Skills />
+                    <Contacts />
+                </main>
                 <Footer />
-            </main>
+            </>
         );
     }
 }

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import SakuraPetals from '../Assets/sakura_petals.png';
-import Cat from '../Assets/cat.png';
 import Arrow from '../Assets/arrow.png';
 export default class Summary extends Component {
     render() {
@@ -11,16 +9,15 @@ export default class Summary extends Component {
                         Hi <br />
                         I'm Daniil <br />
                         <span className="classification">Front-end</span> web developer <br />
-                        <img src={SakuraPetals} alt="sakura petals" />
                         <div className="link">
                             scroll down or just <a href="https://docs.google.com/document/d/11ym89-w1vCcFLifwHsft3CCg6BuuxckA6M4brmqCwX0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">view my resume</a>
                         </div>
                     </div>
                 </div>
-
+                <div className="arrow"><img src={Arrow} alt="arrow" /></div>
                 <div className="about-me">
                     <div className="left-line"></div>
-                    <div>
+                    <div className="about-me__container">
                         <h2>About me</h2>
                         <p> My name is Daniil Stasulevich. I am novice programmer studying in College. <br />
                             Recently i interested in front-end development.
@@ -34,7 +31,6 @@ export default class Summary extends Component {
                             and i think that i can do cool things together with JavaScript and Photoshop.</p>
                     </div>
                     <div className="right-line"></div>
-                    <img src={Cat} alt="cat" />
                 </div>
                 <div className="arrow"><img src={Arrow} alt="arrow" /></div>
 
