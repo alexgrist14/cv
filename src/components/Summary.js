@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import Arrow from '../Assets/arrow.png';
+// import { slide as Menu } from 'react-burger-menu'
 export default class Summary extends Component {
+    showSettings(event) {
+        event.preventDefault();
+    }
     render() {
         return (
             <>
-                <div className="introduction">
+                {/* <Menu>
+                    <a id="Home" className="menu-item" href="#introduction">Home</a>
+                    <a id="About" className="menu-item" href="#about-me">About</a>
+                    <a id="Projects" className="menu-item" href="#projects">Contact</a>
+                    <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
+                </Menu> */}
+                <div id="introduction" className="introduction">
                     <div className="introduction-info">
                         Hi <br />
                         I'm Daniil <br />

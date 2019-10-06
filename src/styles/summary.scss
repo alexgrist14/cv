@@ -3,6 +3,13 @@
 }
 .arrow{
     background-color: $mainColor !important;
+    img{
+        opacity: 0.3;
+        transition: 0.5s;
+    }
+    img:hover{
+        opacity: 0.9;
+    }
 }
 html{
 scroll-behavior: smooth;
@@ -15,9 +22,9 @@ color: rgb(80, 80, 80);
     height: 86vh;
     background-color: $mainColor;
     background-image: url("../Assets/sakura2.png");
-    background-size: 50%;
+    background-size: 30%;
     background-repeat: no-repeat;
-    background-position: 103%;
+    background-position: 80% -50%;
     font-size: 30px;
     &-info{
         z-index: 1;
