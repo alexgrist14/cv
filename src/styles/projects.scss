@@ -72,6 +72,9 @@ main{
     left: -35vh;
     width: 130vw;
     height: 65vh;
+    @media screen and (max-width: 1024px) {
+        display: none;
+       }
     }
     &__bg-2{
         top: 28vh;
@@ -83,7 +86,13 @@ main{
         -webkit-transform: rotate(-8deg);
         transform: rotate(-8deg);
         overflow: hidden;
+        @media screen and (max-width: 1024px) {
+            display: none;
+           }
     }
+    @media screen and (max-width: 1024px) {
+        width: 90%;
+       }
 }
 
 .slick-prev{
@@ -101,12 +110,18 @@ main{
     margin-top: 40px;
     margin-left: 5vw;
     margin-right: 5vw;
+    @media screen and (max-width: 1024px) {
+        margin: 0;
+        margin-left: 19vw; 
+        margin-right: 19vw; 
+        width: 50vw !important;
+       }
 
 }
 .arrow-pr{
     position: absolute;
     z-index: 0;
-    margin-top: 8vh;
+    margin-top: 4vh;
     height: 100px;
     img{
         margin-top: 3vh;

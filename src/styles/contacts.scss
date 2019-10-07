@@ -9,6 +9,10 @@
         color: rgb(109, 109, 110);
         transition: 0.2s;
         filter: opacity(0.7);
+        @media screen and (max-width: 1024px) {
+            width: 40px;
+            height: 40px;
+          }
     }
     img:hover{
         filter: opacity(0.9);
@@ -21,6 +25,10 @@
         width: 21vw;
         padding-left: 30vw;
         text-align: center;
+        @media screen and (max-width: 1024px) {
+            padding: 0;
+            width: 100vw;
+          }
     }
 
     a{
@@ -44,7 +52,21 @@
                 
                 h5{
                     margin-left: 1vw;
+                    @media screen and (max-width: 1024px) {
+
+                        margin-top: 0;
+                      }
                 }
+                img{
+                    @media screen and (max-width: 1024px) {
+                        margin-bottom: 30px;
+                
+                      }
+                }
+                @media screen and (max-width: 1024px) {
+                    margin-top: 0;
+                    margin-left: 40vw;
+                  }
             }
         }
     }
@@ -59,7 +81,18 @@
         background-repeat: no-repeat;
         background-position: 100% 100%;
         background-size: auto 80%;
+        @media screen and (max-width: 1024px) {
+            display: none;
+          }
 
     }
-
+    @media screen and (max-width: 1024px) {
+        height: 70vh;
+        font-size: 2em;
+      }
+      .container{
+        @media screen and (max-width: 1024px) {
+           margin: 0;
+          }
+      }
 }

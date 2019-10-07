@@ -12,7 +12,17 @@ export default class Projects extends Component {
             dots: true,
             speed: 350,
             slidesToShow: 2,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true
+                    }
+                }
+            ]
         };
         return (
             <>
